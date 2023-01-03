@@ -1,0 +1,25 @@
+.footer__links-item {
+    list-style: none;
+    margin: 0 0 32px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 24px;
+    width: fit-content;
+}
+
+.footer__links-item:last-child {
+    margin-bottom: 48px;
+}
+
+@media (min-width: 768px) {
+    .footer__links-item {
+        font-size: 16px;
+        line-height: 18px;
+        margin-bottom: 0;
+        margin-right: 18px;
+    }
+    .footer__links-item:last-child:last-child {
+        margin-bottom: 0;
+        margin-right: 69px;
+    }
+}

@@ -1,0 +1,19 @@
+.footer__container {
+    padding: 64px 118px 24px 16px;
+}
+
+@media (min-width: 768px) {
+    .footer__container {
+        padding: 88px 24px 24px;
+        display: flex;
+        justify-content: space-between;
+        max-width: 1184px;
+        margin: auto;
+    }
+}
+
+@media (min-width: 1024px) {
+    .footer__container {
+        padding: 92px 48px 24px;
+    }
+}

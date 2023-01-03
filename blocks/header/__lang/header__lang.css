@@ -1,0 +1,15 @@
+.header__lang {
+    list-style: none;
+    height: fit-content;
+}
+
+.header__lang:last-child {
+    margin-left: 15px;
+}
+
+@media (min-width: 768px) {
+    .header__lang:last-child {
+        margin-left: 18px;
+    }
+}
+

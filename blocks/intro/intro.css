@@ -1,0 +1,24 @@
+.intro { 
+    font-family: 'Inter', Arial, sans-serif;
+    color: #FFFFFF;
+    background-color: #2A2C2F;
+    padding: 0 16px 0; 
+} 
+ 
+@media (min-width: 768px) { 
+    .intro { 
+        padding: 0 24px 0;  
+    } 
+} 
+ 
+@media (min-width: 1024px) { 
+    .intro { 
+        padding: 0 286px 0 48px;  
+    } 
+} 
+ 
+@media (min-width: 1280px) { 
+    .intro { 
+        padding: 0; 
+    } 
+} 
